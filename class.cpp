@@ -21,7 +21,7 @@ Student createStudent()
 
 int main()
 {
-    Student s1;kjjshdlFC lkfjOFVF A[op ]
+    Student s1;
 
     s1 = createStudent();
     s1.display();

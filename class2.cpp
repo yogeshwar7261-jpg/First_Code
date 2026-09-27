@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student
+{
+public:
+    int rn;
+    string name;
+
+    void display()
+    {
+        cout << "Name is " << name << " Roll no is " << rn;
+    }
+
+    void update(Student S1)
+    {
+        S1.name = "Hari";
+        S1.rn = 1;
+    }
+};
+
+int main()
+{
+    Student S1;
+
+    S1.name = "yogesh-";
+    S1.rn = 2;
+
+    S1.display();
+    S1.update(S1);
+    S1.display();
+
+    return 0;
+}
